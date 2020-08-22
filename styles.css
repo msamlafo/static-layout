@@ -15,7 +15,6 @@ h3, p, div, li {
     font-family: 'Roboto', sans-serif;
 }
 
-
 .bigHeading1 {
     color: white;
     font-size: 3rem;
@@ -107,6 +106,7 @@ nav ul li{
     /* flex: 1 */
 }
 
+/****** Header Content ******/
 .open-kast {
     border: 1px solid white;
     padding: 5px 9px;

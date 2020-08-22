@@ -1,0 +1,284 @@
+/* GENERAL SETUP */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* TYPOGRAPHY */
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+h3, p, div, li {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.bigHeading1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.smallWriteUp {
+    color: #ffffff;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+
+
+
+/* BACKGROUND IMAGE */
+header {
+    background-color: #531F62;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    margin-left: -10px;
+    margin-right: -1px;
+    background-image: url('./Assets/gradient-violet-bg.jpg');
+
+}
+
+/* HEADER IMAGE */
+.header-image {
+    width: 50vw;
+    position: relative;
+    margin: 0 auto;
+    margin-right: -33em;
+    z-index: 2;
+    /* left: 25%; */
+}
+
+header div {
+    text-align: center;
+    /* left: 40%; */
+    padding: 30px 0 0 0;
+
+}
+
+header div p {
+    padding: 20px 30%;
+    text-align: center;
+    
+}
+
+.headerContent {
+    text-align: center;
+    width: 100%;
+}
+
+/* KAST LOGO */
+
+#kast-logo {
+    float: left;
+    width: 200px;
+    position: relative;
+    top: -55px;
+    left: 2em;
+}
+
+#kast-logo:hover {
+    width: 250px;
+    position: relative;
+}
+
+header nav a {
+    left: 50%;
+}
+
+/****** NAV STYLING ******/
+nav ul li{
+    list-style-type: none;
+    display: flex;
+    margin-right: 10px;
+    float: right;
+    position: relative;
+    top: -55px;
+
+}
+
+.nav-link {
+    color: white;
+    text-decoration-line: none;
+    padding: 20px;
+    /* flex: 1 */
+}
+
+.open-kast {
+    border: 1px solid white;
+    padding: 5px 9px;
+    margin: 12px 12px 12px 36px;;
+    font-size: 14px;
+}
+
+
+/* BUTTON */
+.section-one-button {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 2;
+  border-color: transparent;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  background: #f09813;
+  padding: 10px 60px 10px 60px;
+  text-decoration: none;
+}
+
+.section-three-button {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 2;
+  border-color: transparent;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  background: #f09813;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+/*************SECTION 1**************/
+#sectionOne {
+    background-color: white;
+}
+
+.bigHeading3Grey {
+    color: #393a3a;
+    font-size: 30px;
+    text-align: center;
+    margin: 110px 0 10px;
+}
+
+/* SECTION ONE LOGOS */
+
+.logo-set1, .logo-set2 {
+    text-align: center;
+    
+}
+
+.featuredLogos {
+    margin: 50px 100px;
+}
+
+.smallWriteUp2 {
+    color: #585a5a;
+    font-size: 20px;
+    text-align: center;
+}
+
+.yahooFinance {
+    color: #6b6e6e;
+    text-align: center;
+    position: relative;
+    right: -300px;
+    margin-bottom: 100px;
+}
+
+/**************** SECTION TWO *****************/
+/* background */
+#sectionTwo {
+    background-color: #13ADAD;
+    background-image: url(Assets/green-bg.jpg);
+    background-size: cover;
+    padding: 70px 0;
+}
+
+/* MAIN CONTENT AND TEXT */
+.mainContent {
+    text-align: center;
+    padding: 30px inherit;
+    margin: 0 auto;
+    max-width: 1200px;
+    line-height: 40px;
+    
+}
+
+.sectionTwoText {
+    color: white;
+    font-size: 20px;
+    width: 630px;
+    margin: 0 auto 60px;
+}
+
+#sectionTwo h2 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 1;
+}
+
+/* SECTION TWO BUTTON */
+
+.sectionTwoButton {
+    margin-bottom: 30px
+}
+
+
+/* ****************SECTION THREE*********** */
+
+#sectionThree {
+    background-color: #2b2e3d;
+    padding: 70px 0 0;
+    
+}
+
+#sectionThree div h3 {
+    display: inline-block;
+    position: relative;
+    font-size: 2rem;
+    color: white;
+}
+
+/* DIAMOND SUBSCRIPTION */
+#diamond-subscription {
+    width: 50px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+/* PREMIUM ITEMS */
+.premiumItems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: white;
+} 
+
+/* PREMIUM IMAGES */
+.premium-image {
+    background-color: #222230;
+    margin: 0 20px;
+    border-radius: 5%;
+    width: 35%;
+    padding: 0 10px;
+
+}
+
+/* Kast Premium */
+.kastPremium {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.kastPremium p {
+    color: #f09813;
+    padding-bottom: 50px;
+}
+
+/* @media (min-width: 900px) and (max-width: 1400){
+    .header-image {
+        width: 25vw;
+    }
+} */
+
+
+
+

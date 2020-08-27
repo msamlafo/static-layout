@@ -29,87 +29,84 @@ h3, p, div, li {
 
 /* BACKGROUND IMAGE */
 header {
+    height: 83px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: grid !important;
+    grid-template-columns: 220px auto 100px;
+    grid-column-gap: 40px;
+    z-index: 4;
+    padding: 20px;
+    color: white;
+
+}
+
+.sectionZero {
     background-color: #531F62;
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 60px;
-    margin-left: -10px;
-    margin-right: -1px;
     background-image: url('./Assets/gradient-violet-bg.jpg');
-
 }
-
 /* HEADER IMAGE */
 .header-image {
-    width: 50vw;
+    width: 75vw;
     position: relative;
     margin: 0 auto;
-    margin-right: -33em;
     z-index: 2;
-    /* left: 25%; */
 }
 
-header div {
+.sectionZero div {
     text-align: center;
-    /* left: 40%; */
     padding: 30px 0 0 0;
 
 }
 
-header div p {
+.smallWriteUp {
     padding: 20px 30%;
     text-align: center;
     
 }
 
-.headerContent {
-    text-align: center;
-    width: 100%;
-}
-
 /* KAST LOGO */
 
 #kast-logo {
-    float: left;
+    /* float: left; */
     width: 200px;
-    position: relative;
-    top: -55px;
-    left: 2em;
+    /* position: relative; */
+    /* top: -55px; */
+    /* left: 2em; */
 }
 
 #kast-logo:hover {
-    width: 250px;
+    width: 220px;
     position: relative;
+    transition: ease-in-out 0.3s;
 }
 
-header nav a {
-    left: 50%;
-}
-
-/****** NAV STYLING ******/
-nav ul li{
-    list-style-type: none;
-    display: flex;
-    margin-right: 10px;
-    float: right;
-    position: relative;
-    top: -55px;
-
-}
 
 .nav-link {
     color: white;
     text-decoration-line: none;
     padding: 20px;
-    /* flex: 1 */
-}
+    flex: 1 ;
+} 
 
 /****** Header Content ******/
 .open-kast {
+    width: 100px;
     border: 1px solid white;
-    padding: 5px 9px;
-    margin: 12px 12px 12px 36px;;
+    padding: 2px 9px 2px;
+    margin: 12px 12px 12px 36px;
     font-size: 14px;
+    text-decoration: none;
+    word-wrap: none;
+    color :white;
+    position: relative;
+    right: 35px;
+
 }
 
 
@@ -154,11 +151,6 @@ nav ul li{
 }
 
 /* SECTION ONE LOGOS */
-
-.logo-set1, .logo-set2 {
-    text-align: center;
-    
-}
 
 .featuredLogos {
     margin: 50px 100px;
@@ -232,13 +224,25 @@ nav ul li{
     color: white;
 }
 
+.premium-image h4 {
+    font-size: 16px;
+    padding: 15px 0
+}
+
+.premium-image p {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 6px 20px;
+    font-weight: 100;
+}
+
 /* DIAMOND SUBSCRIPTION */
 #diamond-subscription {
-    width: 50px;
+    width: 45px;
     display: inline-block;
     position: relative;
-    top: 10px;
-    left: 10px;
+    top: -5px;
+    left: 8px;
 }
 /* PREMIUM ITEMS */
 .premiumItems {
@@ -271,11 +275,6 @@ nav ul li{
     padding-bottom: 50px;
 }
 
-/* @media (min-width: 900px) and (max-width: 1400){
-    .header-image {
-        width: 25vw;
-    }
-} */
 
 
 
